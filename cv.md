@@ -1,12 +1,15 @@
 # Gleb E
-==============
+
 ## Junior Frontend Developer
-============================
+
 ### Contact information
-**Phone:**+79166151280
-**E-mail**g.elenev@gmail.com
-**Discord**Gleb E (@gl-el)
-============================
+**Phone:** +79166151280
+
+**E-mail** g.elenev@gmail.com
+
+**Discord** Gleb E (@gl-el)
+
+---
 ### Profile
 I've been working as a mechanical design engineer since I graduated from university in 2019.
 
@@ -17,7 +20,8 @@ I've been working as a mechanical design engineer since I graduated from univers
 Так же для разработчиков чаще доступна удаленная работа, чем для конструкторов, что достаточно актуально в настоящее время.
 
 Надеюсь, что мое стремление постоянно изучать новое, а также желание изменить свою жизнь поможет мне овладеть новой актуальной специальностью и реализоваться в профессиональном плане.
-============================
+
+---
 ### Skills
 * HTML5, CSS3 (basic)
 * JavaScript (started)
@@ -25,7 +29,7 @@ I've been working as a mechanical design engineer since I graduated from univers
 * Others:
     + SolidWorks
     + Altium Designer
-============================
+---
 ### Code Example
 *Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result. It should remove all values from list `a`, which are present in list `b` keeping their order.*
 ```
@@ -37,7 +41,7 @@ function arrayDiff(a, b) {
   return a;
 }
 ```
-============================
+---
 ### Experience
 #### Etch-a-sketch
 [https://github.com/gl-el/etch-a-sketch](GitHub)
@@ -52,7 +56,19 @@ function arrayDiff(a, b) {
 #### Rock-paper-scissors
 [https://github.com/gl-el/rock-paper-scissors](GitHub)
 [https://gl-el.github.io/rock-paper-scissors/](Preview)
-============================
 
- 
+---
+### Education
+**Course "Foundation"**
+[https://www.theodinproject.com/paths/foundations/courses/foundations](The Odin Project)
+2023
 
+
+**Design and technology of electonic devices**
+National Research University of Electronic Technology
+2019
+
+---
+### Languages
+* English B2 -> B1
+* Russian - Native
