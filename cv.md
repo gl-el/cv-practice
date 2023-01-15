@@ -42,28 +42,34 @@ function arrayDiff(a, b) {
 ---
 ### Experience
 #### Etch-a-sketch
-[https://github.com/gl-el/etch-a-sketch](GitHub)
-[https://gl-el.github.io/etch-a-sketch/](Preview)
+[GitHub](https://github.com/gl-el/etch-a-sketch)
+
+[Preview](https://gl-el.github.io/etch-a-sketch/)
 
 
 #### Calculator
-[https://github.com/gl-el/calculator](GitHub)
-[https://gl-el.github.io/calculator/](Preview)
+[GitHub](https://github.com/gl-el/calculator)
+
+[Preview](https://gl-el.github.io/calculator/)
 
 
 #### Rock-paper-scissors
-[https://github.com/gl-el/rock-paper-scissors](GitHub)
-[https://gl-el.github.io/rock-paper-scissors/](Preview)
+[GitHub](https://github.com/gl-el/rock-paper-scissors)
+
+[Preview](https://gl-el.github.io/rock-paper-scissors/)
 
 ---
 ### Education
 **Course "Foundation"**
-[https://www.theodinproject.com/paths/foundations/courses/foundations](The Odin Project)
+[The Odin Project](https://www.theodinproject.com/paths/foundations/courses/foundations)
+
 2023
 
 
 **Design and technology of electonic devices**
+
 National Research University of Electronic Technology
+
 2019
 
 ---
