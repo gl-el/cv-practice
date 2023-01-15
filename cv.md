@@ -11,15 +11,13 @@
 
 ---
 ### Profile
-I've been working as a mechanical design engineer since I graduated from university in 2019.
+I've been working as a mechanical engineer since I graduated from university in 2019.
+But despite the experience gained over these 3 years, I realized that I am interested in a more relevant profession, where the possibility of growth depends only on skills, not on time spend in this position and place of education.
+The projects which I worked with dragged on for too long, you can wait for their launch for years, while completed work is losing it's relevance.
+I managed to work both in the office and with a remote team, methodically and responsibly performing the tasks of creating models and assemblies, documentation, writing manuals, meeting with customers and manufacturers. At the same time, front-end development is working on demanding and relevant tasks, the result of which can be assessed almost instantly.
+Also, remote work is more often available for developers than for mechanical engineers, which is quite relevant at the present time.
 
-Я работаю инженером конструктором с тех пор как закончил университет в 2019 году.
-Но не смотря на наработанный опыт за эти 3 года, я осознал, что мне интереснее более актуальная профессия, где возможность роста заивисит исключительно от навыков, а не от стажа и места получения образования.
-Проекты над которыми я работал тянулись слишком долго, их запуска можно дожидаться годами, когда проделанная работа уже потеряла актуальность.
-Я успел поработать как в офисе, так и с удаленной командой, методично и ответственно выполняя задачи по созданию моделей, документации, написании руководств, встречи с заказчиками и производителями. В то же время, фронтенд разработка работает над востребованными и актуальными задачами, результат которых можно оценить практически мгновенно.
-Так же для разработчиков чаще доступна удаленная работа, чем для конструкторов, что достаточно актуально в настоящее время.
-
-Надеюсь, что мое стремление постоянно изучать новое, а также желание изменить свою жизнь поможет мне овладеть новой актуальной специальностью и реализоваться в профессиональном плане.
+I hope that my desire to constantly learn new things, as well as the desire to change my life, will help me master a new relevant specialty and realize myself professionally.
 
 ---
 ### Skills
