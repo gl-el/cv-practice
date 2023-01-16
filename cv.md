@@ -17,7 +17,7 @@ The projects which I worked with dragged on for too long, you can wait for their
 I managed to work both in the office and with a remote team, methodically and responsibly performing the tasks of creating models and assemblies, documentation, writing manuals, meeting with customers and manufacturers. At the same time, front-end development is working on demanding and relevant tasks, the result of which can be assessed almost instantly.
 Also, remote work is more often available for developers than for mechanical engineers, which is quite relevant at the present time.
 
-I hope that my desire to constantly learn new things, as well as the desire to change my life, will help me master a new relevant specialty and realize myself professionally.
+I hope that my desire to constantly learn new things, as well as the desire to change my life, will help me master a new relevant profession and realize myself professionally.
 
 ---
 ### Skills
