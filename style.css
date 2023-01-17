@@ -34,6 +34,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    background-color: #E5E3E6;
 }
 
 
@@ -71,6 +72,7 @@ nav {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    gap: 20px;
 }
 
 .title {
@@ -119,11 +121,10 @@ h1 {
     text-decoration: underline;
 }
 
-.photo img {
-    position: relative;
-    z-index: 2;
+img {
     width: 152px;
     height: 241px;
+    border-radius: 7px;
 }
 
 .contacts img {
@@ -133,13 +134,15 @@ h1 {
 
 h2 {
     font-size: 15px;
+    line-height: 18px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.26em;
 }
 
 .contacts-list {
-    font-size: 12px;
+    margin-top: 14px;
+    font-size: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -152,20 +155,27 @@ h2 {
     gap: 10px;
 }
 
-.education ul {
+.education-list {
     border-left: 2px solid #E2C57F;
-    margin-top: 7px;
+    margin-top: 13px;
     margin-left: 6px;
 }
 
-.education li {
+.education-list li {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 5px;
-    margin-bottom: 9px;
+    margin-bottom:9px;
 }
 
+.education-list li:first-of-type::before {
+    content: "";
+}
+
+.education-list li:last-of-type::after {
+    content: "";
+}
 .education li:last-of-type {
     margin-bottom: 0;
 }
@@ -209,8 +219,9 @@ a>h3,
     margin-top: 15px;
     list-style: inside;
     list-style-position: outside;
-    margin-left: 10px;
+    margin-left: 17px;
 }
+
 
 .language {
     font-size: 11px;
