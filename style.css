@@ -45,7 +45,6 @@ header {
     width: 100%;
     height: 44px;
     font-size: 10px;
-    /*line-height: 1.2;*/
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -77,34 +76,36 @@ nav {
 }
 
 .title {
-    width:100%;
+    width: 100%;
 }
 
 h1 {
     font-size: 65px;
     font-weight: 700;
-    /*line-height: 1.2;*/
     text-transform: uppercase;
     margin-top: 45px;
-    text-align:center;
+    text-align: center;
 }
 
 .age {
     position: relative;
-    left: 296px;
+    left: 297px;
     top: -6px;
 }
+
 .profession {
-    padding :8px 0px;
-    margin-top:38px;
-    width:auto;
+    padding: 8px 0px;
+    margin-top: 38px;
+    width: auto;
     background-color: #E2C57F;
+    line-height: 20.4px;
+    letter-spacing: 0.01em;
     text-align: center;
 }
+
 .profession,
 .age {
     font-size: 17px;
-    /*line-height: 20px;*/
     text-transform: uppercase;
 }
 
@@ -113,6 +114,14 @@ h1 {
 }
 
 .profile-description {
+    font-size: 10px;
+}
+
+.profile-description:last-of-type {
+    margin-top: 5px;
+}
+
+.profile b {
     font-size: 10px;
 }
 
@@ -144,7 +153,6 @@ img {
 
 h2 {
     font-size: 15px;
-    /*line-height: 18px;*/
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.26em;
@@ -176,7 +184,7 @@ h2 {
     flex-direction: column;
     align-items: flex-start;
     gap: 5px;
-    margin-bottom:9px;
+    margin-bottom: 9px;
 }
 
 .education-list li:first-of-type::before {
@@ -186,6 +194,7 @@ h2 {
 .education-list li:last-of-type::after {
     content: "";
 }
+
 .education li:last-of-type {
     margin-bottom: 0;
 }
@@ -193,7 +202,6 @@ h2 {
 .year {
     font-size: 11px;
     font-weight: 700;
-    /*line-height: 13px;*/
     background-color: #E2C57F;
     display: inline-block;
     padding: 1px 6px 0 5px;
@@ -204,7 +212,6 @@ h3,
 a h3 {
     font-size: 11px;
     font-weight: 700;
-   /* line-height: 13px;*/
     text-transform: uppercase;
 }
 
@@ -222,7 +229,6 @@ a>h3,
 
 .course-name {
     font-size: 11px;
-    /*line-height: 13px;*/
 }
 
 .language-list {
