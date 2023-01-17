@@ -35,6 +35,7 @@ body {
     flex-direction: column;
     align-items: stretch;
     background-color: #E5E3E6;
+    line-height: 1.2;
 }
 
 
@@ -44,7 +45,7 @@ header {
     width: 100%;
     height: 44px;
     font-size: 10px;
-    line-height: 1.2;
+    /*line-height: 1.2;*/
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -82,6 +83,7 @@ nav {
 h1 {
     font-size: 65px;
     font-weight: 700;
+    /*line-height: 1.2;*/
     text-transform: uppercase;
     margin-top: 45px;
     text-align:center;
@@ -90,7 +92,7 @@ h1 {
 .age {
     position: relative;
     left: 296px;
-    top: -14px;
+    top: -6px;
 }
 .profession {
     padding :8px 0px;
@@ -102,8 +104,16 @@ h1 {
 .profession,
 .age {
     font-size: 17px;
-    line-height: 20px;
+    /*line-height: 20px;*/
     text-transform: uppercase;
+}
+
+.profile h2 {
+    margin-bottom: 14px;
+}
+
+.profile-description {
+    font-size: 10px;
 }
 
 .aside {
@@ -134,7 +144,7 @@ img {
 
 h2 {
     font-size: 15px;
-    line-height: 18px;
+    /*line-height: 18px;*/
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.26em;
@@ -183,7 +193,7 @@ h2 {
 .year {
     font-size: 11px;
     font-weight: 700;
-    line-height: 13px;
+    /*line-height: 13px;*/
     background-color: #E2C57F;
     display: inline-block;
     padding: 1px 6px 0 5px;
@@ -194,7 +204,7 @@ h3,
 a h3 {
     font-size: 11px;
     font-weight: 700;
-    line-height: 13px;
+   /* line-height: 13px;*/
     text-transform: uppercase;
 }
 
@@ -212,7 +222,7 @@ a>h3,
 
 .course-name {
     font-size: 11px;
-    line-height: 13px;
+    /*line-height: 13px;*/
 }
 
 .language-list {
