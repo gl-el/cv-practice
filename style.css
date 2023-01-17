@@ -21,8 +21,8 @@ p {
 h1,
 h2,
 h3 {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -35,6 +35,8 @@ body {
     flex-direction: column;
     align-items: stretch;
 }
+
+
 
 header {
     background-color: #E2C57F;
@@ -63,6 +65,45 @@ nav {
     grid-template-columns: 192px auto;
 }
 
+.wrapper {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.title {
+    width:100%;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 45px;
+    text-align:center;
+}
+
+.age {
+    position: relative;
+    left: 296px;
+    top: -14px;
+}
+.profession {
+    padding :8px 0px;
+    margin-top:38px;
+    width:auto;
+    background-color: #E2C57F;
+    text-align: center;
+}
+.profession,
+.age {
+    font-size: 17px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
 .aside {
     width: 192px;
     height: 100%;
@@ -70,7 +111,7 @@ nav {
     order: -1;
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
     padding: 15px 20px;
 }
 
@@ -79,6 +120,8 @@ nav {
 }
 
 .photo img {
+    position: relative;
+    z-index: 2;
     width: 152px;
     height: 241px;
 }
@@ -106,62 +149,59 @@ h2 {
 .contacts-list li {
     display: flex;
     align-items: center;
-    gap:10px;
+    gap: 10px;
 }
-
-.wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    flex-shrink: 1;
-}
-
 
 .education ul {
     border-left: 2px solid #E2C57F;
     margin-top: 7px;
     margin-left: 6px;
 }
+
 .education li {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap:5px;
+    gap: 5px;
     margin-bottom: 9px;
 }
+
 .education li:last-of-type {
     margin-bottom: 0;
 }
+
 .year {
-    font-size:11px;
-    font-weight:700;
-    line-height:13px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 13px;
     background-color: #E2C57F;
     display: inline-block;
-    padding:1px 6px 0 5px;
+    padding: 1px 6px 0 5px;
     border-radius: 0px 2px 2px 0px;
 }
 
 h3,
 a h3 {
     font-size: 11px;
-    font-weight:700;
-    line-height:13px;
-    text-transform:uppercase;
+    font-weight: 700;
+    line-height: 13px;
+    text-transform: uppercase;
 }
 
 a h3 {
     text-decoration: underline;
     font-style: italic;
 }
+
 .education a,
 h3,
-a>h3, 
+a>h3,
 .course-name {
     padding-left: 5px;
 }
 
 .course-name {
-    font-size:11px;
+    font-size: 11px;
     line-height: 13px;
 }
 
@@ -173,7 +213,7 @@ a>h3,
 }
 
 .language {
-    font-size:11px;
-    line-height:1.5;
+    font-size: 11px;
+    line-height: 1.5;
     text-transform: uppercase;
 }
