@@ -111,7 +111,8 @@ h1 {
 
 .profile h2,
 .skills h2,
-.experience h2 {
+.experience h2,
+.code-example h2 {
     margin-bottom: 14px;
 }
 
@@ -168,7 +169,11 @@ h1 {
     display: grid;
     margin-bottom: 4px;
     grid-template-columns: 1fr 1fr;
-    gap:30px;
+    gap: 30px;
+}
+
+.project:last-of-type {
+    margin-bottom: 0;
 }
 
 .project-description {
@@ -178,10 +183,50 @@ h1 {
 }
 
 .project-description h3 {
-    width:92px;
+    width: 92px;
     font-size: 14px;
     font-weight: 700;
     line-height: 16.8px;
+}
+
+.code-example {
+    width: 100%;
+}
+
+.code-wrapper {
+    display: grid;
+    grid-template-columns: 116px auto;
+}
+
+.task-text {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.task-text span {
+    font-size: 39px;
+}
+
+.task-text b {
+    font-size: 10px;
+}
+
+
+code {
+    display: block;
+    position: relative;
+    height: 136px;
+    left: 20px;
+    padding:15px 20px;
+    background-color: #E2C57F;
+    font-family: 'Source Code Pro';
+    font-size: 10px;
+    line-height: 1.5;
+    
+}
+
+code span {
+    margin-left: 12px;
 }
 
 .aside {
