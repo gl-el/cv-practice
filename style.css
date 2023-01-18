@@ -34,7 +34,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    background-color: #E5E3E6;
     line-height: 1.2;
 }
 
@@ -62,12 +61,14 @@ nav {
 }
 
 .main {
+    background-color: #E5E3E6;
     display: grid;
-    grid-template-columns: 192px auto;
+    grid-template-columns: 192px 403px;
 }
 
 .wrapper {
     padding: 0 20px;
+    width:calc(100%);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -167,14 +168,11 @@ h1 {
 
 .project {
     display: grid;
-    margin-bottom: 4px;
+    margin-top: 10px;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
 }
 
-.project:last-of-type {
-    margin-bottom: 0;
-}
 
 .project-description {
     display: flex;
@@ -196,6 +194,7 @@ h1 {
 .code-wrapper {
     display: grid;
     grid-template-columns: 116px auto;
+
 }
 
 .task-text {
@@ -217,12 +216,11 @@ code {
     position: relative;
     height: 136px;
     left: 20px;
-    padding:15px 20px;
+    padding:15px 0px 15px 20px;
     background-color: #E2C57F;
     font-family: 'Source Code Pro';
     font-size: 10px;
     line-height: 1.5;
-    
 }
 
 code span {
