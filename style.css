@@ -301,7 +301,9 @@ code span {
 .footer-gh p {
     display:block;
 }
-
+.footer-gh a:hover {
+    color:#fff;
+}
 .footer-year {
     font-size: 10px;
     font-weight:900;
