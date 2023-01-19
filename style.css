@@ -13,7 +13,8 @@ ul {
     padding: 0;
 }
 
-p {
+p,
+figure {
     margin: 0;
     padding: 0;
 }
@@ -115,7 +116,6 @@ h1 {
 
 .profile h2,
 .skills h2,
-.experience h2,
 .code-example h2 {
     margin-bottom: 14px;
 }
@@ -164,16 +164,39 @@ h1 {
     margin-left: 17px;
 }
 
+.experience h2 {
+    margin-bottom: 8px;
+}
+
+
 .project-preview {
-    width: 171px;
+    padding: 4px;
+    border-radius: 11px;
+    background-color: #E5E3E6;
+}
+
+.project-preview img {
+    display: block;
+    margin:auto;
+    width:auto;
+    width:171px;
     height: 98px;
     border-radius: 7px;
 }
 
+.project-preview:hover {
+    background-color: #E2C57F;
+}
+
+.project-preview img:hover {
+    opacity: 0.5;
+}
+
 .project {
-    height: 98px;
+    margin-top: 2px;
+    position: relative;
+    left: -4px;
     display: grid;
-    margin-top: 10px;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
 }
