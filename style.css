@@ -64,6 +64,11 @@ nav {
     gap: 65px;
 }
 
+.nav-list a:hover,
+aside a:hover {
+    color: #fff;
+}
+
 .main {
     background-color: #E5E3E6;
     display: grid;
