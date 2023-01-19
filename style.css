@@ -219,6 +219,10 @@ h1 {
     line-height: 16.8px;
 }
 
+a:hover svg path{
+    fill:#E2C57F;
+}
+
 .code-example {
     width: 100%;
     margin-bottom: 15px;
